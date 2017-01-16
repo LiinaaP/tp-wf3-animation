@@ -1,8 +1,5 @@
-$('.btn1').click(function() {
-	
+$('.btn1').click(function(){
+	$('.html').style.display = 'block';
+	$('.css').style.display = 'block';
+	$('.js').style.display = 'block';
 });
-document.getElementById('bouton').onclick = function(){
-	// 1 ère étape: demande et stoquer l'information (revenu imposable)
-	var revenu = prompt("Combien avez-vous gagné cette année?");
-	// jusqu-ici, revenu contient du texte : "10000"
-	// Je veux que ça devienne : 10000 (un nombre)
